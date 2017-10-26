@@ -2,7 +2,7 @@
 # it is explicitly included in module 5
 
 deployment:
-    dockrhub:
+    dockerhub:
         branch: master
             commands:
                - $DOCKER_CI_TRIGGER
