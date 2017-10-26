@@ -2,10 +2,10 @@
 # it is explicitly included in module 5
 
 deployment:
-    dockerhub:
-        branch: master
-            commands:
-               - $DOCKER_TRIGGER
+  dockerhub:
+    branch: master
+    commands:
+      - $DOCKER_TRIGGER
 
 test:
   override:    
